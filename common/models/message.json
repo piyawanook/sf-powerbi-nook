@@ -1,0 +1,45 @@
+{
+  "name": "message",
+  "base": "Model",
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "length": 18,
+      "postgresql": {
+        "columnName": "id",
+        "dataType": "character",
+        "dataLength": 18,
+        "nullable": "no"
+      }
+    },
+    "name": {
+      "type": "String",
+      "id": false,
+      "required": false,
+      "length": 80,
+      "postgresql": {
+        "columnName": "name",
+        "dataType": "varchar",
+        "dataLength": 80,
+        "nullable": "yes"
+      }
+    },
+    "account": {
+      "type": "string",
+      "id": false,
+      "required": false,
+      "postgresql": {
+        "columnName": "account",
+        "dataType": "varchar",
+        "dataLength": 80,
+        "nullable": "yes"
+      }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

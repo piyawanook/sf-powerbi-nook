@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "postgreSQL": {
+    "host": "ec2-54-221-237-246.compute-1.amazonaws.com",
+    "port": 5432,
+    "database": "d65mru8r3gnh1o",
+    "password": "c8601b5c1942d87c16832738d942646f3ca1538d9d9e6504030949ca5ab54b43",
+    "name": "postgreSQL",
+    "user": "februpkrvvnjpg",
+    "ssl": true,
+    "connector": "postgresql"
+  }
+}
